@@ -153,6 +153,7 @@ namespace WpfApplication1
             if (depth < nearst)
                 nearst = depth;
         }
+
         void Alarm()
         {
             if (nearst < ALARM_RANGE)
